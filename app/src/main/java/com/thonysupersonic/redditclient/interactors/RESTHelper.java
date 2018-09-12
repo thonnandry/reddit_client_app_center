@@ -12,6 +12,9 @@ public class RESTHelper {
 
     private static final String BASE_URL = "https://www.reddit.com/";
 
+
+    
+
     private static AsyncHttpClient client = new AsyncHttpClient();
 
     public static void get(String url, RequestParams params, AsyncHttpResponseHandler responseHandler) {
